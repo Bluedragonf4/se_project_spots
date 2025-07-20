@@ -1,8 +1,10 @@
 @import url(../vendor/font.css);
-
 @import url(../vendor/normalize.css);
+
 @import url(./page.css);
 @import url(./header.css);
+@import url(./profile.css);
 @import url(./content.css);
 @import url(./cards.css);
+@import url(./card.css);
 @import url(./footer.css);
