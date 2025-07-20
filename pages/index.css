@@ -1,6 +1,7 @@
 @import url(../vendor/font.css);
 @import url(../vendor/normalize.css);
 
+<<<<<<< HEAD
 @import url(../blocks/page.css);
 @import url(../blocks/header.css);
 @import url(../blocks/profile.css);
@@ -8,3 +9,12 @@
 @import url(../blocks/cards.css);
 @import url(../blocks/card.css);
 @import url(../blocks/footer.css);
+=======
+@import url(./page.css);
+@import url(./header.css);
+@import url(./profile.css);
+@import url(./content.css);
+@import url(./cards.css);
+@import url(./card.css);
+@import url(./footer.css);
+>>>>>>> afca1d001e04799935aee13434f09835da4d41d1
