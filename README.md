@@ -25,3 +25,4 @@ Good luck and have fun!
 
 
   
+![Spots-GIF-Compressed](https://github.com/user-attachments/assets/c7b8dba6-3c62-4b70-9ded-e051d9148872)
