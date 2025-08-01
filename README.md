@@ -26,6 +26,10 @@ Spots on a 720px Screen
 Spot on a 600px Screen <br>
 
 <img width="593" height="1322" alt="Spots-1-Column" src="https://github.com/user-attachments/assets/de770dd9-f858-436e-9cce-e98dc73050bb" />
+
+## Video
+
+https://drive.google.com/file/d/190K9x1N-E_BuYGnQcZaX0q-73qHxe7uF/view?usp=sharing
   
 ## Deployment
 
