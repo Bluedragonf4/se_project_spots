@@ -1,5 +1,9 @@
 .modal {
   visibility: hidden;
+}
+
+.modal_is-opened {
+  visibility: visible;
   background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 0;
@@ -9,10 +13,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.modal_is-opened {
-  visibility: visible;
 }
 
 .modal__container {
