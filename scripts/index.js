@@ -13,7 +13,7 @@ const profileFormElement = editModule.querySelector(".modal__form"); // Use quer
 const profileNameInput = profileFormElement.querySelector(
   "#profile-name-input"
 );
-const profilejobInput = profileFormElement.querySelector(
+const profileJobInput = profileFormElement.querySelector(
   "#profile-description-input"
 );
 //Profile Elements
@@ -36,7 +36,7 @@ editBtn.addEventListener("click", function () {
 
 async function closeEditModal() {
   editModule.classList.add("modal_is-closed");
-  await delay(1000);
+  await delay(600);
   editModule.classList.remove("modal_is-closed");
   editModule.classList.remove("modal_is-opened");
 }
@@ -59,7 +59,7 @@ postBtn.addEventListener("click", function () {
 
 async function closePostModal() {
   postModule.classList.add("modal_is-closed");
-  await delay(1000);
+  await delay(600);
   postModule.classList.remove("modal_is-closed");
   postModule.classList.remove("modal_is-opened");
 }

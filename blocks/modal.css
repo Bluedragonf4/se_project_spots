@@ -2,13 +2,13 @@
   z-index: 100;
   visibility: hidden;
   opacity: 0;
-  transition: opacity 1s ease-in-out;
+  transition: visibility 0.5s ease, opacity 0.5s ease-in-out;
 }
 
 .modal_is-opened {
   visibility: visible;
   opacity: 1;
-  transition:opacity 1s ease-out;
+  transition: visibility 0.5s ease, opacity 0.5s ease-out;
   background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 0;
@@ -20,9 +20,9 @@
   align-items: center;
 }
 
-.modal_is-closed{
-visibility: visible;
-opacity: 0;
+.modal_is-closed {
+  visibility: visible;
+  opacity: 0;
 }
 
 .modal__container {
@@ -37,7 +37,8 @@ opacity: 0;
   padding: 32px 50px;
 }
 
-.modal__close-btn {
+.modal__close-btn  {
+  cursor:pointer;
   position: absolute;
   top: 32px;
   right: 50px;
@@ -101,6 +102,7 @@ opacity: 0;
 }
 
 .modal__save-btn {
+  cursor: pointer;
   font-family: Poppins;
   font-weight: 500;
   font-size: 16px;
