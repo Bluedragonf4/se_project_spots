@@ -83,7 +83,7 @@
   width: 100%;
   border: 1px solid rgba(33, 33, 33, 0.4);
   border-radius: 8px;
-  padding: 16px 0px 16px 12px;
+  padding: 16px 12px;
   margin: 8px 0 0;
   transition: border 1.5s ease-in;
 }
@@ -98,6 +98,7 @@
 
 .modal__save-btn {
   cursor: pointer;
+  border: none;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -129,7 +130,7 @@
     font-size: 16px;
     margin: 0 0 24px;
   }
-  
+
   .modal__input {
     font-size: 16px;
   }
