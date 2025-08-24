@@ -134,7 +134,11 @@
   background-color: rgba(33, 33, 33, 1);
   color: #fff;
   padding: 4px 8px;
+<<<<<<< HEAD
   display: inline-block;
+=======
+  display:inline-block;
+>>>>>>> refs/remotes/origin/main
   border-radius: 8px;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-weight: 500;
@@ -145,7 +149,11 @@
   right: -52.5px;
   background-image: url(../images/X-icon-White.svg);
   opacity: 1;
+<<<<<<< HEAD
   transition: opacity 0.5s ease-in-out 0s;
+=======
+  transition: opacity 0 0.5s ease-in-out;
+>>>>>>> refs/remotes/origin/main
 }
 
 .modal__close-btn_preview:hover {
