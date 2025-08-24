@@ -1,3 +1,6 @@
+.card {
+  position: relative;
+}
 
 .card__image {
   width: 100%;
@@ -6,6 +9,26 @@
   display: block;
   border-radius: 8px;
   margin: 0 0 12px;
+  cursor: pointer;
+}
+
+.card__delete-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 32px;
+  height: 32px;
+  border: none;
+  background-color: transparent;
+  background-image: url(../images/Trash_Can_Default.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+  transition: background-image 0.4s ease-in;
+}
+
+.card__delete-btn:hover {
+  background-image: url(../images/Trash_Can_Hover.svg);
 }
 
 .card__content {
@@ -39,11 +62,21 @@
   padding: 0;
   cursor: pointer;
   opacity: 0.4;
-  transition: opacity 0.1s ease-in;
+  transition: opacity 0.4s ease-in;
 }
 
 .card__like-btn:hover {
   opacity: 1;
+}
+
+.card__like-btn_liked {
+  background-image: url(../images/State-Liked.svg);
+  opacity: 1;
+  transition: opacity 0.4s ease-in;
+}
+
+.card__like-btn_liked:hover {
+  opacity: 0.4;
 }
 
 @media screen and (max-width: 630px) {
