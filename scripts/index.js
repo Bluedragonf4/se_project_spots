@@ -79,12 +79,7 @@ function handleProfileFormSubmit(evt) {
 }
 
 function getCardElement(data) {
-<<<<<<< HEAD
   let cardElement = cardsTemplate.content
-=======
-  console.log(data);
-  const cardElement = cardsTemplate.content
->>>>>>> refs/remotes/origin/main
     .querySelector(".card")
     .cloneNode(true);
   const cardTitleEl = cardElement.querySelector(".card__title");
@@ -119,10 +114,7 @@ function handleAddCardSubmit(evt) {
   const inputValues = { name: cardNameInput.value, link: cardLinkInput.value };
   const cardElement = getCardElement(inputValues);
   cardsList.prepend(cardElement);
-<<<<<<< HEAD
   addCardFormElement.reset();
-=======
->>>>>>> refs/remotes/origin/main
   closeModal(postModule);
 }
 
